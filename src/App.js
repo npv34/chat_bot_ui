@@ -32,7 +32,7 @@ function App() {
     setIsTyping(true); // 🔥 Bắt đầu typing
 
     try {
-      const res = await axios.post("http://13.229.223.125:8000/api/message", {
+      const res = await axios.post("https://13.229.223.125/api/message", {
         sender_id,
         question: text,
       });
